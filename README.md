@@ -1,2 +1,2 @@
 # fundamental-python
-learnpython for course remote worker
+learn Python for course remote worker
