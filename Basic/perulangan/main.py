@@ -1,5 +1,5 @@
 # Perulangan
-jumlah_anak = 4
+count_kids = 4
 
-for index_anak in range(1, jumlah_anak + 1):
-    print(f'Halo anak #{index_anak}')
+for index_kids in range(1, count_kids + 1):
+    print(f'Halo anak #{index_kids}')

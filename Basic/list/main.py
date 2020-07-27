@@ -15,11 +15,11 @@ anak.append("Limo")
 print(anak)
 
 # sapa anak ke-2
-print(f'\nanak kedua namanya {anak[2]}')
+print(f'\nanak ketiganya namanya {anak[2]}')
 
 for a in anak:
     print(f'Hai, {a}!')
 
 print("\ncara ribet")
 for a in range(0, len(anak)):
-    print(f'Hai {anak[a]}')
+    print(f'Hai {anak[a]}!')
