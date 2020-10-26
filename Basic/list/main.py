@@ -23,3 +23,10 @@ for a in anak:
 print("\ncara ribet")
 for a in range(0, len(anak)):
     print(f'Hai {anak[a]}!')
+
+food = ['telur', 'pizza', 'cupcake', 'burger', 'salmon']
+print(food[2])
+food.append('kue')
+print(food)
+food.insert(3, 'tacos')
+print(food)
