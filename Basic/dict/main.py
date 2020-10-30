@@ -29,3 +29,34 @@ data_from_server_gojek = {
 print(f"Data driver #1 {data_from_server_gojek['driver_list'][0]}")
 print(f"Driver terdekat berjarak {data_from_server_gojek['driver_list'][0]['jarak']} meter")
 
+people = {'John' : 32, 'Rob' : 23}
+print(people['John'])
+print(people['Rob'])
+
+# Dictionary function
+
+numbers = {
+    1 : 'one',
+    2 : 'two',
+    3 : 'three'
+}
+
+print(1 in numbers)
+print(numbers.get(2))
+print(numbers.get(5, 'Key tidak ditemukan'))
+
+
+# exercise
+products = {
+    'Chair' : 40,
+    'Sofa' : 50,
+    'Table' : 90,
+    'Monitor' : 1,
+    'Carpet' : 200
+}
+
+newproduct = input('Masukkan nama produk: ')
+if(newproduct in products):
+    print(f"jumlah produk {newproduct} yang tersedia ada: {products.get(newproduct)} unit")
+else:
+    print('Produk tidak ditemukan')
