@@ -10,6 +10,6 @@ list_geometry = []
 list_geometry.append(p1)
 list_geometry.append(s1)
 
-print('\nPolymorphism')
+print('\npolymorphism')
 for geometry in list_geometry:
     print(geometry.info())
