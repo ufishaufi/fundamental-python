@@ -5,8 +5,9 @@ ingin_cepat = True
 if ingin_cepat:
     print('jalan lurus aja ya!')
 else:
-    print('jalan lan')
+    print('jalan lain')
 
+'''
 nilai = int(input('masukkan nilai: '))
 
 if nilai >= 90:
@@ -18,4 +19,19 @@ elif nilai >=60:
 elif nilai >=50:
     print('D')
 else:
-    print("E")
+    print('E')
+'''
+
+marks = int(input('Enter your marks: '))
+
+if marks >= 90:
+    print('nilai A')
+elif marks >= 70:
+    print('nilai B')
+elif marks >= 60:
+    print('nilai C')
+elif marks >= 50:
+    print('nilai D')
+else:
+    print('E')
+

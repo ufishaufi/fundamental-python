@@ -1,5 +1,4 @@
-from itertools import count
-from itertools import accumulate, takewhile
+from itertools import count, accumulate, takewhile
 
 for i in count(3):
     print(i, end=' ')

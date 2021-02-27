@@ -1,18 +1,18 @@
 # Adding data to file
 """
-file = open("demo.txt", 'w')
+file = open("demo_speech.txt", 'w')
 file.write('Saya sedang belajar python untuk materi handling file')
 file.close()
 
 # read file
-file = open("demo.txt", 'r')
+file = open("demo_speech.txt", 'r')
 content = file.read()
-# content = file.readline()
+content = file.readline()
 print(content)
 file.close()
 
 # Append data to file
-file = open("demo.txt", 'a')
+file = open("demo_speech.txt", 'a')
 file.write('\nSaya sedang belajar')
 file.close()
 """

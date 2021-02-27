@@ -2,7 +2,9 @@ import re
 
 pattern = r"eggs"
 
-if re.match(pattern, "baconeggseggseggsbacon"):
+# if re.match(pattern, "eggseggseggs"):
+# if re.match(pattern, "baconeggseggseggsbacon"):
+if re.match(pattern, "eggseggseggsbacon"):
     print('Match found')
 else:
     print('No match found')

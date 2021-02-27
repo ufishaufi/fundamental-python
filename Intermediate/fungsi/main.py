@@ -1,3 +1,4 @@
+'''
 def triangle_area(base, height):
     area = base * height / 2
     return area
@@ -9,6 +10,7 @@ print(f'Menghitung luas segitiga dengan fungsi, yang mana hasilnya = {triangle_a
 print(f'Menghitung luas segitiga dengan fungsi, yang mana hasilnya = {triangle_area(100, 2)}')
 
 print()
+'''
 
 def display_square():
     for x in range(1, 10):
@@ -59,6 +61,7 @@ def calculate_BMI(new_weight, new_height):
 # print(bmi)
 
 # functional programming
+print('functional programming')
 def add_ten(x):
     return x + 10
 
@@ -67,14 +70,21 @@ def twice(func, arg):
 
 print(twice(add_ten, 10))
 
+print()
+
 # lambdas
+print('lambdas')
 def square(x):
     return x**2
 
 print(square(4))
+
 print((lambda x: x**2)(30))
 
+print()
+
 # map
+print('map')
 def add(x):
     return x + 2
 
@@ -86,11 +96,15 @@ print(result)
 result = list(map(lambda x: x + 2, newlist))
 print(result)
 
+print()
+
 # filter
 newlist = [1, 3, 4, 5, 7, 2, 9, 11, 13]
 
 result =list(filter(lambda x: x % 2 == 0, newlist))
 print(result)
+
+print()
 
 # generator
 def function():
@@ -110,6 +124,8 @@ def even_numbers(x):
 
 print(list(even_numbers(21)))
 
+print()
+
 # exercise
 def student_discount(price):
     price = price - (price * 10) / 100
@@ -123,13 +139,18 @@ selling_price = 100
 
 print(additional_discount(student_discount(selling_price)))
 
-result = (lambda x: x*(x + 5)**2)(5)
+print()
+
+result = (lambda x: x * (x + 5) ** 2)(5)
 print(result)
 
+print()
+
 def discount(price):
-    price = (int) (price - (price * 10) / 100)
+    price = (int) (price - (price * 10) / 100) // 100 - (100 * 10) / 10
     return price
 
 product_price = [100, 200, 300, 400, 500]
 updated_price = map(discount, product_price)
 print(list(updated_price))
+

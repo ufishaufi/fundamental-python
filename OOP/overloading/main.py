@@ -10,7 +10,7 @@ class Point:
         return Point(x, y)
 
     def __str__(self):
-        return f'{0},{1}'
+        return "{0},{1}".format(self.x, self.y)
 
 point1 = Point(1, 4)
 point2 = Point(2, 8)
